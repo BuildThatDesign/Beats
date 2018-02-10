@@ -1,0 +1,68 @@
+@import "reset.scss";
+@import "_variables.scss";
+
+
+
+h1 {
+  font-size: 2.5em;
+  font-family: $font-family;
+  color: $primary-font-colour;
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.3em;
+  color: $secondry-font-colour;
+  font-family: $font-family;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 1.4;
+  font-family: $font-family;
+  color: $third-font-colour;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1.7;
+  font-family: $font-family;
+  color: $third-font-colour;
+}
+
+h6 {
+  font-size: 1.2em;
+  line-height: 1.7;
+  font-family: $font-family;
+  color: $secondry-font-colour;
+  margin: 0;
+}
+
+p {
+  font-size: 25px;
+  line-height: 1.4;
+  font-family: $font-family;
+  color: $third-font-colour;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+    /* box-sizing: content-box; */
+    /* height: 0px; */
+    overflow: visible;
+    width: 5%;
+    border: none;
+    height: 3px;
+    /* color: #333; */
+    background-color: #333;
+}
+
+figure {
+  margin: 0;
+}

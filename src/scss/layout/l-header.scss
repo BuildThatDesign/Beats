@@ -1,0 +1,11 @@
+@import "_variables";
+
+.l-header {
+  background-color: $primary-bg-colour;
+
+  figure {
+    padding: 2%;
+    display: inline-block;
+  }
+
+}
